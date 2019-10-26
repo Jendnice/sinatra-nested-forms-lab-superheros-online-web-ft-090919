@@ -3,13 +3,11 @@
 <html>
   <body>
     <h1> <%= @team_name %> </h1>
-  
     <h2>Team Motto: <%= @team_motto %>  </h2>
-    
-       <% @team_members.each do |hero| %>
+    <% @team_members.each do |hero| %>
     <h2>Hero Name: <%= hero[:name] %> </h2>
     <p>Hero Power: <%= hero[:name] %> <br  />
     Hero Biography:<%= hero[:name] %> </p>
-       <% end %>
+    <% end %>
   </body>
 </html>
