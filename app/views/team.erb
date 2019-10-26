@@ -1,15 +1,15 @@
 <!DOCTYPE html>
   
 <html>
-<body>
-</DOCTYPE><h1> <%= @team_name %> </h1>
-<p></p>
-<h2>Team Motto: <%= @team_motto %>  </h2>
-<p></p>
-   <% @team_members.each do |hero| %>
-<h2>Hero Name: <%= hero[:name] %> </h2>
-<h4>Hero Power: <%= hero[:name] %> </h4>
-<h4>Hero Biography:<%= hero[:name] %> </h4>
-   <% end %>
-</body>
+  <body>
+  </DOCTYPE><h1> <%= @team_name %> </h1>
+  <p></p>
+  <h2>Team Motto: <%= @team_motto %>  </h2>
+  <p></p>
+     <% @team_members.each do |hero| %>
+  <h2>Hero Name: <%= hero[:name] %> </h2>
+  <h4>Hero Power: <%= hero[:name] %> </h4>
+  <h4>Hero Biography:<%= hero[:name] %> </h4>
+     <% end %>
+  </body>
 </html>
